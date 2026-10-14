@@ -13,6 +13,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faWhatsapp,
+  faFacebookMessenger,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Actuality() {
@@ -209,7 +210,13 @@ export default function Actuality() {
                 />
                 Envoyer
               </li>
-              
+              <li className="hover:bg-gray-300 px-3.5 p-1 rounded-lg mr-0.5 font-semibold text-sm text-gray-500">
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  className="mr-1 text-gray-400 font-semibold size-5"
+                />
+                Envoyer
+              </li>
               <li className="hover:bg-gray-300 px-3.5 p-1 rounded-lg mr-0.5 font-semibold text-sm text-gray-500">
                 <FontAwesomeIcon
                   icon={faShare}

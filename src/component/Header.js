@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faMagnifyingGlass, faHouse, faBell, faUser, faBars} from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faFacebookMessenger, } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -63,7 +64,7 @@ function Header() {
     },
     {
       name: (
-        <FontAwesomeIcon />
+        <FontAwesomeIcon icon={faFacebookMessenger} />
       ),
       link: "/",
     },
@@ -86,7 +87,7 @@ function Header() {
       {/* Logo */}
       <div className="flex items-center">
         <div className="">
-        <FontAwesomeIcon size="2xl" className="size-10 m-2 text-blue-600" />
+        <FontAwesomeIcon icon={faFacebook} size="2xl" className="size-10 m-2 text-blue-600" />
         </div>
         <div className="flex items-center bg-gray-100 p-2 rounded-full ml-2">
         <FontAwesomeIcon icon={faMagnifyingGlass} className=" text-gray-500" />

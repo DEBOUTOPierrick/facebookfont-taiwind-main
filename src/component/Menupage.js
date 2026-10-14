@@ -1,6 +1,7 @@
 import React from "react";
 import Storie from "./Storie";
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { faFacebook, faFacebookMessenger, } from '@fortawesome/free-brands-svg-icons';
 import {faClockRotateLeft, faBookmark, faTv, faUser, faBars} from '@fortawesome/free-solid-svg-icons'
 
 
@@ -43,7 +44,7 @@ export default function Menupage() {
       name: (
         <>
           {" "}
-          <FontAwesomeIcon className="size-4 m-2 text-blue-600" />{" "}
+          <FontAwesomeIcon icon={faFacebook} className="size-4 m-2 text-blue-600" />{" "}
           Bienvenue
         </>
       ),
