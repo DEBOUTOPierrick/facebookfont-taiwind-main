@@ -13,7 +13,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faWhatsapp,
-  faFacebookMessenger,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Actuality() {
