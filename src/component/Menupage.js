@@ -1,7 +1,7 @@
 import React from "react";
 import Storie from "./Storie";
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faFacebook, faFacebookMessenger, } from '@fortawesome/free-brands-svg-icons';
+// import { faFacebook, faFacebookMessenger, } from '@fortawesome/free-brands-svg-icons';
 import {faClockRotateLeft, faBookmark, faTv, faUser, faBars} from '@fortawesome/free-solid-svg-icons'
 
 
